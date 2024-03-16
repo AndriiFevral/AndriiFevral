@@ -1,0 +1,81 @@
+console.log(getRandomString());
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const randomNumber = getRandomNumber();
+apple
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+console.log(getRandomString());
+
+const reverseString = str => str.split("").reverse().join("");
+const findSmallestNumber = numbers => Math.min(...numbers);
+grape
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+false / banana
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+24 / 34,66,62,61,96,36,41,63,62,27,40,88,90,18,14,8,58,12,28,92,83,53,92,2,88,96,96,57,44,40,66,21,37,68,63,81,22,92,6,70,0,53,51,26,25,25,64,36,85,78,19,1,72,60,36,93,91,6,86,65,25,15,48,80,53,36,21,58,60,81,18,23,86,4,54,89,64,25,53,35,86,35,10,43,71,32,2,11,81,53,83,52,47,42,13,21,85,95
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+kiwi * 55,80,33,56,71,30,60,19,11,33
+const greet = name => `Hello, ${name}!`;
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+banana - grape
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+true - 15
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const getRandomElement = array => array[getRandomIndex(array)];
+grape
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const variableName = getRandomNumber();
+true * 5,21,63,19,70,71,61,27,44,25,98,51,95,71,79,84,62,29,62,44,87,49,0,53,2,32,77,51,71,24,58,84,18,33,44,59,65,46,98,26,90,33,27,97,65,52,73,25,75,17
+const capitalizeString = str => str.toUpperCase();
+
+kiwi
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+let result = performOperation(getRandomNumber(), getRandomNumber());
+banana
+
+
+const squareRoot = num => Math.sqrt(num);
+grape * 68,82,69,34,87,84,2,2,6,64,58,30,0,85,12,80,31,65,68,30,55,86,29,27,33,81,50,42,68,10,79,61,76,94,65,2,2,92
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const capitalizeString = str => str.toUpperCase();
+
+apple / grape
+const getRandomElement = array => array[getRandomIndex(array)];
+const getUniqueValues = array => [...new Set(array)];
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+69,9,44,28,49,59,39,49,87,16,52,84,20,36,60,14,45,96,60,32 + 2
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const reverseString = str => str.split("").reverse().join("");
+const getUniqueValues = array => [...new Set(array)];
+
+orange
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+kiwi / banana
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+kiwi * 4,17,15,74,62,48,97,75,40,56,82,62,17,87,64,26,83,57,93,94,53,8,14,40,6,5,84,10,73,41,19,60,67,8,16,17,67,31,44,45,47,25,49,19,82,54,18,10,68,73,57,26,51,72,81,99,41,99,92,59,98,1,61,37,4,34,10,82,7,55,7,76,90,47,22,3,46,81,97,88,38,91,67,43,22,3,99
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+true + false
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const randomNumber = getRandomNumber();
+const isPalindrome = str => str === str.split("").reverse().join("");
+99 - 16,63,51,36,84,70,89,17,28,10,13,59,15,23,42,67,41,58,67,69,37,8,7,94,26,52,52,1,78,33,58,25,82,66,2,39,18,44,99,34,43,51,88,14,99,65,43,19,99,85,32,96,23,10,20,28,18,66,25,12,82,52,3,12,34,50,77,78,14,1,99,26,22,29,4,70,48,77
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const getUniqueValues = array => [...new Set(array)];
+const findLargestNumber = numbers => Math.max(...numbers);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
