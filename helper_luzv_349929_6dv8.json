@@ -1,0 +1,27 @@
+const getUniqueValues = array => [...new Set(array)];
+const formatDate = date => new Date(date).toLocaleDateString();
+const multiply = (a, b) => a * b;
+kiwi
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const multiply = (a, b) => a * b;
+false / orange
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+29 - false
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+console.log(getRandomString());
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+banana
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
